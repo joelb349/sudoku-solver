@@ -62,10 +62,14 @@ def is_digit_valid(board, empty_space, number_to_add):
         line.add(board[row])
         if number_to_add not in line:
             is_valid = check_mini_squares(board, number_to_add, empty_space)
+            return is_valid
         else:
             return False
     else:
         return False
     
-def check_mini_square()
-    
+def check_mini_squares(sudoku_board, number, empty_position):
+    # We can spliut this logic out dependent on where
+    # empty_position 
+    ## TO-DO:: Add this logic
+    return None
